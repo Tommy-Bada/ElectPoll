@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    background: #F4F4F4;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link-text>a{
+    font-size: 1.6rem;
+    font-weight:600;
+    text-decoration: none;
+    color: var(--purple);
+    margin-right: 0.4rem;
+}
+.link-text>a:hover{
+    margin-right: 0.6rem;
+}
+.plt{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.create-acc-btn, .sign-in-btn,.dashboard-btn{
+    font-size: 1.6rem;
+    padding: 1.5rem 3rem;
+    border: none;
+    color: var(--ash);
+    background: var(--purple);
+    border-radius: 0.8rem;
+    font-weight:600;
+}
+.sign-in-btn, .dashboard-btn{
+    background: var(--orange);
+    margin-left: 2rem;
+}

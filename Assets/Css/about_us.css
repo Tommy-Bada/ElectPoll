@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: montserrat;
+}
+:root{
+    --purple: #00010F;
+    --orange: #FF9900;
+    --white: #FFFFFF;
+    --ash: #F4F4F4;
+    --lightPurple: #00010FEE; 
+}
+h1{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.6rem;
+}
+#about-us-section{
+    text-align: center;
+    padding: 3rem 4rem;
+}
+#about-us-section>h1{
+    margin-bottom: 0.5rem;
+}
+#about-us-quote{
+    display: flex;
+    margin: 2.8rem 23rem 1.6rem 23rem;
+
+}
+#about-us-quote>p{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+}
+#about-us-text{
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+#about-us-text>p{
+    text-align: left;
+}
+.dash{
+    width: 24rem;
+    height: 0.1rem;
+    background: var(--purple);
+    margin-left: auto;
+    margin-right: auto;
+}
+#vote-stat{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.4rem;
+}
+#vote-stat>div>p{
+    text-align: center;
+}
+#vote-stat>div>p{
+    text-align: center;
+}
+#vote-stat>div>p:first-child{
+    color: var(--orange);
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+.stat-center{
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+
+
+/* Profile Section */
+#team-section{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 18rem;
+    background: var(--purple);
+}
+.profile-name{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--ash);
+    margin-top: 1.2rem;
+}
+.profile-position{
+    color: var(--orange);
+    margin-top: 0.2rem;
+    margin-bottom: 0.6rem;
+}
+.profile-socials{
+    display: flex;
+    justify-content: center;
+}
+.profile-socials>div{
+    margin-right: 1.2rem;
+}
+.profile-socials>div>img{
+    width: 2.4rem;
+}
+
+/* Our Core Value Section */
+#value-section{
+    text-align: center;
+    padding: 4rem 8rem;
+    color: var(--purple);
+}
+#value-section>h2{
+    font-size: 2rem;
+}
+#value-section>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+#value-section>div>div{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 46%;
+}
+#value-section>div>div>h3{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+/* Testimonial Section */
+.testimonial-section{
+    display: flex;
+    align-items: center;
+    padding: 4rem 18rem;
+    justify-content: space-between;
+}
+.slide-btn{
+    background: var(--purple);
+    padding: 1.2rem 1.8rem;
+    border: none;
+}
+.testimonial-text{
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--purple);
+}
+.testimonial-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.testimonial-profile>p{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    color: var(--purple);
+}

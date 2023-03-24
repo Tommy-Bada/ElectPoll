@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: montserrat;
+}
+:root{
+    --purple: #00010F;
+    --orange: #FF9900;
+    --white: #FFFFFF;
+    --ash: #F4F4F4;
+    --lightPurple: #00010FEE; 
+}
+h1{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.6rem;
+}
+
+
+#pricing-section{
+    text-align: center;
+    padding: 4rem 8rem;
+}
+#pricing-section>p{
+    margin-top: 0.2rem;
+    margin-bottom: 2.4rem;
+}
+#pricing{
+    display: flex;
+    justify-content: space-between;
+}
+#pricing>div{
+    text-align: center;
+    border: solid 1px var(--purple);
+    border-radius: 0.8rem;
+    padding: 2rem;
+}
+.pricing-title{
+    color: var(--orange);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.pricing-price{
+    font-size: 3.2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+.pricing-figure{
+    font-weight: 600;
+}
+.pricing-dash{
+    width: 80%;
+    height: 0.1rem;
+    margin: 1.2rem auto 2rem auto;
+    background: var(--purple);
+}
+.pricing-details>div{
+    display: flex;
+    align-items: center;
+    margin-top: 0.6rem;
+}
+.pricing-details>div>p{
+    margin-left: 1.6rem;
+    text-align: left;
+}
+.pricing-btn{
+    width: 32rem;
+    padding: 1.4rem;
+    background: var(--orange);
+    color: var(--ash);
+    border: none;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+
+#contact-support-box{
+    margin: 2.4rem auto 0 auto;
+    padding: 1.6rem 2rem;
+    display: flex;
+    align-items: center;
+    border: solid 0.1rem var(--purple);
+    border-radius: 0.8rem;
+    width: max-content;
+}
+.csb-text-1{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: left;
+}
+.csb-text-2{
+    text-align: left;
+    margin-top: 0.4rem;
+}
+.contact-support-btn{
+    padding: 1.2rem 3rem;
+    background: var(--orange);
+    color: var(--ash);
+    border: none;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+}

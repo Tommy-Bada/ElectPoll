@@ -1,0 +1,198 @@
+
+/* Root stylings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: montserrat;
+}
+:root{
+    --purple: #00010F;
+    --orange: #FF9900;
+    --white: #FFFFFF;
+    --ash: #F4F4F4;
+    --lightPurple: #00010FEE; 
+}
+h1{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.6rem;
+}
+
+
+/* Main Section and Poll Section Styling*/
+#main-section, #poll-section{
+    display: flex;
+    align-items: center;
+    background: var(--purple);
+    color: var(--ash);
+    padding-left: 4rem;
+}
+#main-sec-left, #poll-sec-left{
+    width: 72rem;
+}
+#main-sec-left>p, #poll-sec-left>p{
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    line-height: 2rem;
+}
+button{
+    font-size: 1.6rem;
+    padding: 1.5rem 3rem;
+    border: none;
+    border-radius: 0.8rem;
+}
+#main-sec-btn-1, #poll-sec-btn-1{
+    margin-right: 2rem;
+    background: var(--orange);
+    color: var(--purple);
+}
+#main-sec-btn-2, #poll-sec-btn-2{
+    color: var(--purple);
+}
+
+/* Testimonial Section Styling */
+.testimonial-section{
+    display: flex;
+    align-items: center;
+    padding: 4rem 18rem;
+    justify-content: space-between;
+}
+.slide-btn{
+    background: var(--purple);
+    padding: 1.2rem 1.8rem;
+    border: none;
+}
+.testimonial-text{
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--purple);
+}
+.testimonial-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.testimonial-profile>p{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    color: var(--purple);
+}
+
+/* Features Section */
+#features-section{
+    text-align: center;
+    background: var(--ash);
+    padding: 4rem 8rem;
+    color: var(--purple);
+}
+#features-section>h2{
+    font-size: 2rem;
+}
+#features-section>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+#features-section>div>div{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 46%;
+}
+#features-section>div>div>h3{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+#features-btn{
+    margin-top:0.6rem ;
+    background: var(--orange);
+    color: var(--ash);
+    padding: 1.5rem 6rem;
+}
+
+
+/* FAQ Section Styling */
+#faq-section{
+    display: flex;
+    color: var(--purple);
+    background: var(--ash);
+}
+#faq-section-box{
+    margin: 4rem;
+}
+.faq-text{
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.faq-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+.faq-list>p:first-child{
+    background: var(--orange);
+    color: var(--ash);
+    padding: 1.4rem 2rem;
+    border-radius: 0.8rem;
+    margin-right: 1.6rem;
+}
+#faq-btn-1{
+    background: var(--purple);
+    color: var(--ash);
+    margin-right: 2rem;
+}
+#faq-btn-2{
+    background: var(--orange);
+    color: var(--ash);
+}
+
+
+/* Here for You Section Styling */
+#here-for-you-section{
+    display: flex;
+    padding: 4rem 15rem;
+    justify-content: space-between;
+}
+#here-for-you-text{
+    margin-top: 0.8rem;
+    margin-bottom: 1.6rem;
+}
+.here-for-you-sec-box{
+    display: flex;
+    background: var(--orange);
+    align-items: center;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    border-radius: 0.8rem;
+    color: var(--ash);
+    margin-bottom: 1.2rem;
+}
+.box-2{
+    background: var(--purple);
+}
+.here-for-you-sec-box>p{
+    margin-left: 1.6rem;
+}
+#here-for-you-btn-1{
+    background: var(--orange);
+    color: var(--ash);
+    margin-right: 2rem;
+}
+#here-for-you-btn-2{
+    background: var(--purple);
+    color: var(--ash);
+}
+

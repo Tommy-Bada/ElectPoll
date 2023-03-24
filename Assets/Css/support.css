@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: montserrat;
+}
+:root{
+    --purple: #00010F;
+    --orange: #FF9900;
+    --white: #FFFFFF;
+    --ash: #F4F4F4;
+    --lightPurple: #00010FEE; 
+}
+h1{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.8rem;
+}
+p{
+    font-size: 1.6rem;
+}
+
+
+#support>h2{
+    text-align: center;
+    margin-top: 2.8rem;
+}
+#support>p{
+    text-align: center;
+    margin-bottom: 2.8rem;
+    margin-top: 0.2rem;
+}
+#support>div{
+    display: flex;
+    justify-content: flex-start;
+    padding: 3rem 4rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border: solid 0.1rem var(--purple);
+    border-radius: 0.8rem;
+}
+#support-left{
+    width: 50%;
+    margin-right: 4rem;
+}
+#support-left>div{
+    margin-bottom: 3rem;
+}
+#support-left>p{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+#support-left>div>div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+#support-left>div>div>div{
+    margin-right: 0.8rem;
+}
+#support-form{
+    width: 50%;
+}
+#support-form>div>label{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+#support-form>div>input{
+    width: 100%;
+    height: 4.8rem;
+    border-radius: 0.8rem;
+    border-width: 0.1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1.2rem;
+}
+textarea{
+    height: 8rem;
+    width: 100%;
+    border-radius: 0.8rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1.6rem;
+}
+.support-btn{
+    background: var(--orange);
+    color: var(--white);
+    width: 100%;
+    border: none;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+}
+
+
+#knowledge-base{
+    margin: 4rem;
+}
+#knowledge-base>div{
+    display: flex;
+    margin-top: 1.2rem;
+    overflow-x:auto;
+}
+#knowledge-base>div::-webkit-scrollbar {
+    display: none;
+}
+#knowledge-base>div {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.k-b-box{
+    min-width: 40rem;
+    margin-right: 3rem;
+    border: solid 0.1rem var(--purple);
+    border-radius: 0.8rem;
+}
+.k-b-box>div>img{
+    width: 100%;
+}
+.k-b-box-text{
+    margin: 2rem;
+}
+.k-b-box-text>p{
+    margin-bottom: 1.4rem;
+    margin-top: 0.6rem;
+}
+.k-b-box-text>button{
+    background: var(--orange);
+    color: var(--white);
+    width: 100%;
+    border: none;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+}
