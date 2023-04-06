@@ -48,13 +48,13 @@ In the setting up of Electpoll, several security concerns weere considered to en
   <p/>
     
   <ol>
-    <li>Voter verification<li/>
-    <li>Voter privacy<li/>
-    <li>Cybersecurity<li/>
-    <li>Tampering<li/>
-    <li>Voter education<li/>
-    <li>Transparency settings<li/>
-    <li>Accessibility (Inclusivity)<li/>
+    <li>Voter verification
+    <li>Voter privacy
+    <li>Cybersecurity
+    <li>Tampering
+    <li>Voter education
+    <li>Transparency settings
+    <li>Accessibility (Inclusivity)
     <li>Legal and regulatory framework<li/>
   <ol/>
 </details>
