@@ -169,3 +169,15 @@ As part of our efforts to design a functional and user-friendly e-voting system,
 <a href="https://whimsical.com/user-flow-diagrams-electpoll-WFHSq3bBwup4CZeBWtpqps">Click her to access the userflow.</a>
   </p>
 </details>
+
+<details>
+  <summary>
+    <h2>How to run our code</h2>
+  </summary>
+  
+  <p>
+    Our code is deployed <a href="https://elect-poll.netlify.app/">here</a>.
+    
+    But if you wish to run it on a local server, you can always download the codebase and run on VS Code or any other IDE's that allows for editing of static websites. 
+  </p>
+</details>
