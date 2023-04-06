@@ -112,7 +112,10 @@ Voters, election officials, and political parties involved in the electoral proc
   
   <p>
 After working with the competitive analysis and empathy maps for ElectPoll, it was concluded that the e-voting system should possess various features that promote transparency, security, accessibility, and efficiency. These features will ensure that the electoral process is conducted fairly and free from any fraudulent activity. Below were the proposed features and their respective explanations:
-
+  </p>
+<img src="https://user-images.githubusercontent.com/69037600/230282873-f394c893-98d5-4540-961b-80c6937d49f3.jpg" style="margin-top: 20px;"/>
+<br>
+  <p>
 <ul>
 <li><b>Accessibility</b></li>
 The e-voting system should be accessible to all eligible voters, regardless of their physical ability, location, or other barriers. It should be designed to be easily accessible and user-friendly for everyone.
