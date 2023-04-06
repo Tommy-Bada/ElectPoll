@@ -44,7 +44,7 @@ We conducted two rounds of surveys/interviews, one to hear thoughts and opinions
   </summary>
   
   <p>
-In the setting up of Electpoll, several security concerns weere considered to ensure that the system is reliable and secure. Some of these security concerns are:
+In the setting up of Electpoll, several security concerns were brought up and considered to ensure that the system is reliable and secure. Some of these security concerns are:
   <p/>
     
   <ol>
@@ -56,5 +56,27 @@ In the setting up of Electpoll, several security concerns weere considered to en
     <li>Transparency settings
     <li>Accessibility (Inclusivity)
     <li>Legal and regulatory framework
+  <ol/>
+</details>
+
+
+<details>
+  <summary>
+    <h2>Cultural Factors<h2/>
+  </summary>
+  
+  <p>
+Through brainstorming amongst ourselves and feedback from potential users, we came about a list of cultural factors that could affect a voting system being a reality and we tried our best to find a solution to the solvables in Electpoll.
+  <p/>
+
+  <ol>
+    <li>Literacy & technological literacy
+    <li>Trust in government & technology
+    <li>Social & political culture inclusivity
+    <li>Access to technology
+    <li>Language
+    <li>Tradition and culture
+    <li>Education
+    <li>Religion and beliefs
   <ol/>
 </details>
