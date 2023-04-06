@@ -55,6 +55,6 @@ In the setting up of Electpoll, several security concerns weere considered to en
     <li>Voter education
     <li>Transparency settings
     <li>Accessibility (Inclusivity)
-    <li>Legal and regulatory framework<li/>
+    <li>Legal and regulatory framework
   <ol/>
 </details>
