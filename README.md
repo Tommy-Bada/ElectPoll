@@ -177,7 +177,6 @@ As part of our efforts to design a functional and user-friendly e-voting system,
   
   <p>
     Our code is deployed <a href="https://elect-poll.netlify.app/">here</a>.
-    
-    But if you wish to run it on a local server, you can always download the codebase and run on VS Code or any other IDE's that allows for editing of static websites. 
+But if you wish to run it on a local server, you can always download the codebase and run on VS Code or any other IDEs that allows for editing of static websites. The website is still static because we are not done with it.
   </p>
 </details>
