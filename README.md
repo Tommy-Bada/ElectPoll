@@ -1,5 +1,7 @@
 # ElectPoll
 
+![Electpoll logo](https://user-images.githubusercontent.com/69037600/230285167-9a4beb9f-ec4d-447c-bc18-cd8eead98aa0.png)
+
 <details>
   <summary>
     <h2>Problem Definition</h2>
