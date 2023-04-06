@@ -151,5 +151,18 @@ This feature lets voters see candidate images and bios, making it easier to choo
 This feature ensures that the voting process is transparent and secure by generating a log of all activities within the e-voting system. It provides a trail of all actions taken during the voting process, ensuring that the results are accurate and free from manipulation.
 </ul>
 
+The proposed features listed above are essential for the development of a transparent, secure, and efficient e-voting system. Each feature serves a specific purpose that addresses the needs of voters, election officials, and organizations involved in the electoral process. Implementing these features will enhance the credibility and reliability of the electoral process, leading to the acceptance of the e-voting system as a viable alternative to traditional voting methods.
+  </p>
+</details>
+
+<details>
+  <summary>
+    <h2>User Flow Diagrams</h2>
+  </summary>
+  
+  <p>
+As part of our efforts to design a functional and user-friendly e-voting system, we created user flow diagrams for the different user types - electoral officers, election voters, and poll voters. These flow diagrams serve as visual representations of the sequence of steps that users will take when interacting with the system. They are important tools for identifying and addressing potential usability issues, as well as improving overall user experience.
+    
+<a href="https://whimsical.com/user-flow-diagrams-electpoll-WFHSq3bBwup4CZeBWtpqps">Click her to access the userflow.</a>
   </p>
 </details>
