@@ -34,7 +34,27 @@ All in all, ElectPoll has the potential to serve a wide range of target audience
   </summary>
   
   <p>
-    We conducted two rounds of surveys/interviews, one to hear thoughts and opinions on the topic of electronic voting, another to access or solution's impact during production. We used info from the first survey to draw up our empathy maps, jot down concerns and cultural factors that may affect our solution.
+We conducted two rounds of surveys/interviews, one to hear thoughts and opinions on the topic of electronic voting, another to access or solution's impact during production. We used info from the first survey to draw up our empathy maps, jot down concerns and cultural factors that may affect our solution.
   <p/>
 </details>
 
+<details>
+  <summary>
+    <h2>Security Concerns<h2/>
+  </summary>
+  
+  <p>
+In the setting up of Electpoll, several security concerns weere considered to ensure that the system is reliable and secure. Some of these security concerns are:
+  <p/>
+    
+  <ol>
+    <li>Voter verification<li/>
+    <li>Voter privacy<li/>
+    <li>Cybersecurity<li/>
+    <li>Tampering<li/>
+    <li>Voter education<li/>
+    <li>Transparency settings<li/>
+    <li>Accessibility (Inclusivity)<li/>
+    <li>Legal and regulatory framework<li/>
+  <ol/>
+</details>
