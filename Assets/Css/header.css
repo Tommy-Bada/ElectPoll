@@ -39,3 +39,27 @@ header{
     background: var(--orange);
     margin-left: 2rem;
 }
+.hamburger-menu{
+    display: none;
+}
+
+@media (max-width: 768px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+    .nav-links{
+        display: none;
+    } 
+    .create-acc-btn, .sign-in-btn,.dashboard-btn{
+        display: none;
+    } 
+    .logo{
+        width: 10rem;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    
+}

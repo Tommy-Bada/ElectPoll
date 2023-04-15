@@ -196,3 +196,104 @@ button{
     color: var(--ash);
 }
 
+@media (max-width: 768px){
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    .img-rmv{
+        display: none;
+    }
+
+    
+/* Main Section and Poll Section Styling*/
+    #main-section, #poll-section{
+        display: block;
+        padding: 2rem;
+    }
+    #main-sec-left, #poll-sec-left{
+        width: 100%;
+    }
+    button{
+        font-size: 1.4rem;
+        padding: 1.2rem 2.4rem;
+    }
+    #main-sec-btn-1, #poll-sec-btn-1{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    #main-sec-right{
+        display: none;
+    }
+
+/* Testimonial Section Styling */
+    .testimonial-section{
+        padding: 2rem;
+        justify-content: space-between;
+    }
+    .testimonial-text{
+        font-size: 1.4rem;
+    }
+    .testimonial-profile{
+        display: block;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .testimonial-profile>p{
+        font-size: 1.6rem;
+        margin-left: 0;
+    }
+
+/* Features Section */
+    #features-section{
+        padding: 2rem;
+    }
+    #features-section>div{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 2rem;
+        overflow-x: auto;
+    }
+    #features-section>div>div{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        min-width: 100%;
+    }
+
+/* FAQ Section Styling */
+    #faq-btn-1{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+/* Here for You Section Styling */
+    #here-for-you-section{
+        display: block;
+        padding: 2rem;
+    }
+    .here-for-you-sec-box>p{
+        margin-left: 1.6rem;
+    }
+    #here-for-you-btn-1{
+        background: var(--orange);
+        color: var(--ash);
+        margin-right: 2rem;
+    }
+    #here-for-you-btn-2{
+        background: var(--purple);
+        color: var(--ash);
+    }
+    #hfy-sec-top{
+        margin-bottom: 2rem;
+    }
+}
+
