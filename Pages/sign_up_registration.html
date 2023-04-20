@@ -4,7 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Electpoll</title>
-        <link rel="stylesheet" href="../Assets/Css/sign_up.css"/>
+        <link rel="stylesheet" href="../Assets/Css/sign_up_registration.css"/>
         <link rel="stylesheet" href="../Assets/Css/header.css"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     </head>
@@ -32,39 +32,54 @@
         <main>
             <div>
                 <h1>Complete Registration</h1>
-                <p>Complete your registration by filling the details below appropriately.</p>
+                <p class="main-text">Complete your registration by filling the details below appropriately.</p>
                 <form>
                     <div>
-                        <label>First Name*</label><br>
-                        <input type="text" placeholder="John" />
+                        <div>
+                            <label>First Name*</label><br>
+                            <input type="text" placeholder="John" />
+                        </div>
+                        <div>
+                            <label>Last Name*</label><br>
+                            <input type="text" placeholder="Doe" />
+                        </div>
                     </div>
                     <div>
-                        <label>Last Name*</label><br>
-                        <input type="text" placeholder="Doe" />
+                        <div>
+                            <label>Email Address*</label><br>
+                            <input type="email" placeholder="johndoe@agronub.com" />
+                        </div>
+                        <div>
+                            <label>Phone Number</label><br>
+                            <input type="number" placeholder="Please include country code" />
+                        </div>
                     </div>
                     <div>
-                        <label>Email Address*</label><br>
-                        <input type="email" placeholder="johndoe@agronub.com" />
+                        <div>
+                            <label for="gender">Gender*</label><br>
+                            <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="binary">Binary</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="nationality">Nationality*</label><br>
+                            <select id="nationality" name="nationality">
+                            <option value="Nigerian">Nigerian</option>
+                            <option value="America">American</option>
+                            <option value="Canada">Canada</option>
+                            </select>
+                        </div>
                     </div>
-                    <div>
-                        <label>Phone Number</label><br>
-                        <input type="number" placeholder="Please include country code" />
-                    </div>
-                    <div>
-                        <label for="gender">Gender*</label>
-                        <select id="gender" name="gender">
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="binary">Binary</option>
-                        </select>
-                    </div>
-                    <div><input type="submit" value="Proceed to Dashboard"/></div>
+                    <div><input class="submit-btn" type="submit" value="Proceed to Dashboard"/></div>
                 </form>
-                <div>
-                    <div><img src="" /></div>
+                <div id="info-sec">
+                    <div><img src="../Assets/Img/info-circle.svg" /></div>
                     <p>Learn about how your data is used.</p>
                 </div>
             </div>
         </main>
+        <p class="form-text-2">Having any problems?</p>
     </body>
 </html>

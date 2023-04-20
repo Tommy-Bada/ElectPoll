@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: montserrat;
+}
+:root{
+    --purple: #00010F;
+    --orange: #FF9900;
+    --white: #FFFFFF;
+    --ash: #F4F4F4;
+    --lightPurple: #00010FEE; 
+}
+h1{
+    font-size: 3.2rem;
+}
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.6rem;
+}
+body{
+    background: url(../Img/registration.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main>div{
+    background: var(--purple);
+    padding: 3rem 6rem;
+    border-radius: 0.8rem;
+    margin: 4.8rem 12rem;
+}
+h1{
+    color:var(--white);
+}
+.main-text{
+    color: var(--white);
+    margin-bottom: 2.4rem;
+    margin-top: 0.8rem;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+form>div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+input,select, option{
+    width: 47rem;
+    padding: 1.6rem;
+    font-size: 1.4rem;
+    border-radius: 0.8rem;
+    border: solid var(--ash) 0.1rem;
+    background: var(--purple);
+    color: var(--ash);
+    margin-top: 1.2rem;
+    margin-bottom: 1.6rem;
+}
+.submit-btn{
+    background: var(--orange);
+    width: 100%;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    color: var(--ash);
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    border-radius: 0.8rem;
+    border: none;
+}
+ label{
+    font-size: 1.6rem;
+    color: var(--white);
+}
+#info-sec{
+    display: flex;
+    align-items: center;
+}
+#info-sec>div{
+    margin-right: 1rem;
+}
+#info-sec>p{
+    color: var(--white);
+}
+.form-text-2{
+    color: var(--orange);
+    padding-left: 6rem;
+    padding-bottom: 6rem;
+}
