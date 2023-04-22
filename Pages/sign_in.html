@@ -9,8 +9,22 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     </head>
     <body>
+        <section id="mobile-menu">
+            <ul>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="pricing.html">Plans and Pricing</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <div>
+                <div><a href="sign_up.html" ><button id="mobile-sign-up-btn" >Create Account</button></a></div>
+                <div><a href="sign_in.html" class="clr-yellow" ><button id="mobile-sign-up-btn">Sign In</button></a></div>
+            </div>
+        </section>
         <header>
-            <div><img src="../Assets/Img/logo.svg" /></div>
+            <div><img class="logo" src="../Assets/Img/logo.svg" /></div>
             <div class="nav-links">
                 <div>
                     <p class="link-text"><a href="about_us.html">About Us</a></p>
@@ -28,10 +42,15 @@
                 <a href="sign_up.html"><button class="create-acc-btn">Create Account</button></a>
                 <a href="sign_in.html"><button class="sign-in-btn">Sign In</button></a>
             </div>
+            <div id="hamburger-menu">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
         </header>
         <main>
             <div class="sign-up-left">
-                <div><img src="../Assets/Img/with in google.png" /></div>
+                <div><img id="swgoogle" src="../Assets/Img/with in google.png" /></div>
                 <div class="or">
                     <div class="line"></div>
                     <p>OR</p>
@@ -67,5 +86,6 @@
             </div>
                 </div>
         </main>
+        <script src="../Assets/Js/index.js"></script>
     </body>
 </html>

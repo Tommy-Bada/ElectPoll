@@ -93,3 +93,38 @@ input,select, option{
     padding-left: 6rem;
     padding-bottom: 6rem;
 }
+
+
+@media (max-width: 768px){
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    main>div{
+        background: var(--purple);
+        padding: 2rem;
+        margin: 3rem 2rem;
+    }
+    .main-text{
+        margin-bottom: 2rem;
+    }
+    form{
+        display: block;
+    }
+    form>div{
+        display: block;
+        width: 100%;
+    }
+    input,select, option{
+        width: 100%;
+    }
+    
+}

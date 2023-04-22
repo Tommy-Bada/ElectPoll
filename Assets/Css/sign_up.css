@@ -111,3 +111,45 @@ label{
     color: var(--orange);
     font-size: 3.2rem;
 }
+
+
+@media (max-width: 768px){
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+
+    main{
+        display: block;
+    }
+    .sign-up-left{
+        padding: 3rem 2rem;
+    }
+    #swgoogle{
+        width: 100%;
+    }
+    .or{
+        margin-top: 2rem ;
+        margin-bottom: 2rem ;
+    }
+    .line{
+        width: 45%;
+    }
+    label{
+        font-size: 1.6rem;
+    }
+    
+    .sign-up-right{
+        background:var(--purple);
+        color: var(--ash);
+        display: none;
+    }
+}
