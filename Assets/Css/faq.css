@@ -88,6 +88,9 @@ p{
     #faq-container{
         margin-left: 0;
     }
+    .main-img{
+        width: 100%;
+    }
     .faq-question{
         padding: 1rem 2rem;
     }
