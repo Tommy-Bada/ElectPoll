@@ -65,3 +65,47 @@ p{
     margin-left:6rem;
     margin-bottom: 3rem;
 }
+
+
+@media (max-width: 768px){
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+
+    #faq-top{
+        display: block;
+        margin: 3rem 2rem;
+    }
+    #faq-container{
+        margin-left: 0;
+    }
+    .faq-question{
+        padding: 1rem 2rem;
+    }
+    .faq-question>p{
+        font-size: 1.6rem;
+    }
+    .faq-answer{
+        padding: 1rem 2rem;
+    }
+    
+    #faq-list-container{
+        margin: 3rem 2rem;
+    }
+    .faq-list{
+        margin-bottom: 0.8rem;
+    }
+    #faq-text{
+        margin:2rem;
+    }
+    
+}

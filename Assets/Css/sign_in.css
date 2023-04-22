@@ -78,10 +78,6 @@ label{
     border-radius: 0.8rem;
     border: none;
 }
-.check>span{
-    color: var(--orange);
-    font-size: 1.3rem;
-}
 .form-text-1{
     text-align: right;
     margin-bottom: 4rem;
@@ -113,4 +109,46 @@ label{
 .sign-up-right>div>h1>span{
     color: var(--orange);
     font-size: 3.2rem;
+}
+
+
+@media (max-width: 768px){
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+
+    body{
+        background:var(--purple);
+    }
+    main{
+        display: block;
+    }
+    .sign-up-left{
+        padding: 3rem 2rem;
+    }
+    #swgoogle{
+        width: 100%;
+    }
+    .or{
+        margin-top: 2rem ;
+        margin-bottom: 2rem ;
+    }
+    .line{
+        width: 45%;
+    }
+    label{
+        font-size: 1.6rem;
+    }
+    .sign-up-right{
+        display: none;
+    }
 }

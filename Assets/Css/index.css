@@ -263,6 +263,9 @@ button{
         margin-top: 2rem;
         overflow-x: auto;
     }
+    #features-section>div::-webkit-scrollbar {
+        display: none;
+      }
     #features-section>div>div{
         margin-top: 0rem;
         margin-bottom: 0rem;

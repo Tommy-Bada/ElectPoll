@@ -24,6 +24,8 @@ h3{
 p{
     font-size: 1.6rem;
 }
+
+
 #about-us-section{
     text-align: center;
     padding: 3rem 4rem;
@@ -164,4 +166,121 @@ p{
     font-weight: 700;
     margin-left: 2rem;
     color: var(--purple);
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 2.4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+
+    #about-us-section{
+        text-align: center;
+        padding: 2rem;
+    }
+    #about-us-quote{
+        margin: 1rem 0;
+    
+    }
+    #about-us-quote>p{
+        text-align: center;
+        font-size: 1.6rem;
+
+    }
+    #about-us-text{
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
+    #about-us-text>p{
+        text-align: center;
+    }
+    #vote-stat{
+        justify-content: space-between;
+    }
+    #vote-stat>div>p{
+        text-align: center;
+    }
+    #vote-stat>div>p{
+        text-align: center;
+    }
+    .stat-center{
+        margin:0;
+    }
+    
+    
+    
+    /* Profile Section */
+    #team-section{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 4rem 2rem;
+        row-gap: 4rem;
+    }
+    .profile-img{
+        width: 16rem;
+    }
+    .profile-name{
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+    .profile-socials>div>img{
+        width: 2rem;
+    }
+    
+    /* Our Core Value Section */
+    #value-section{
+        padding: 3rem 2rem;
+    }
+    #value-section>h2{
+        font-size: 1.8rem;
+    }
+    #value-section>div{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin-top: 2rem;
+        overscroll-behavior-x: contain ;
+        scroll-snap-type:x mandatory;
+    }
+    #value-section>div::-webkit-scrollbar{
+        display: none;
+    }
+    #value-section>div>div{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        min-width: 100%;
+        scroll-snap-align: center;
+    }
+    #value-section>div>div>h3{
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    
+    /* Testimonial Section */
+    .testimonial-section{
+        padding: 2rem;
+        justify-content: space-between;
+    }
+    .testimonial-text{
+        font-size: 1.4rem;
+    }
+    .testimonial-profile{
+        display: block;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .testimonial-profile>p{
+        font-size: 1.6rem;
+        margin-left: 0;
+    }
+
 }
