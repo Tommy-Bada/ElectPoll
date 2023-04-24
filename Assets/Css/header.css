@@ -85,7 +85,7 @@ header{
     }
     #mobile-sign-up-btn{
         font-size: 1.6rem;
-        padding: 1rem 3rem;
+        padding: 1.5rem 3rem;
         color: var(--white);
         background: var(--purple);
         border-radius: 0.8rem;
@@ -93,16 +93,12 @@ header{
     }
     #mobile-log-in-btn{
         font-size: 1.6rem;
-        padding: 1rem 3rem;
+        padding: 1.5rem 3rem;
         color: var(--white);
         background: var(--orange);
         border-radius: 0.8rem;
         border:none ;
     }
-    .clr-yellow>button{
-        background: var(--orange);
-    }
-    
 
     header{
         display: flex;
