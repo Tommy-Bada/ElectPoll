@@ -81,6 +81,7 @@ label{
 .form-text-1{
     text-align: right;
     margin-bottom: 4rem;
+    color: var(--ash);
 }
 .form-text-1>span{
     color: var(--orange);
