@@ -62,11 +62,11 @@
         margin-bottom: 1.5rem;
     }
     .footer-logo>img{
-        width: 18rem;
+        width: 15rem;
     }
     .footer-bottom{
         text-align: left;
-        margin-bottom: 1rem;
+        margin-bottom:0;
     }
     .footer-bottom>div{
         display: flex;
@@ -77,7 +77,7 @@
     .socials{
         display: flex;
         justify-content: space-between;
-        width: 60%;
+        width: 40%;
     }
     .socials>div{
         margin-left: 0;
