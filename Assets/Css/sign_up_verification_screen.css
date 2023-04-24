@@ -51,6 +51,7 @@ main{
 .form-text-2{
     text-align: left;
     color: var(--orange);
+    margin-top: 25%;
 }
 
 .sign-up-right{

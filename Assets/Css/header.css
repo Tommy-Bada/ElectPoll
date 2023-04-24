@@ -5,6 +5,15 @@
     --ash: #F4F4F4;
     --lightPurple: #00010FEE; 
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
 #mobile-menu{
     display: none;
 }
